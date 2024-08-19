@@ -1,0 +1,136 @@
+Number of rows and columns: 
+(2097, 11)
+
+Column types: 
+country                         object
+year                    datetime64[ns]
+life_ladder                    float64
+gdp                            float64
+social_support                 float64
+healthy_life                   float64
+life_choices_freedom           float64
+generosity                     float64
+corruption                     float64
+positive_affect                float64
+negative_affect                float64
+dtype: object
+
+Number of duplicates: 0
+
+Summary:
+Column: life_ladder 
+count    2097.000000
+mean        5.466517
+min         2.178809
+25%         4.611607
+50%         5.433173
+75%         6.290690
+max         7.970892
+std         1.136941
+Name: life_ladder, dtype: float64
+
+Column: gdp 
+count    2097.000000
+mean        9.356037
+min         5.526723
+25%         8.464981
+50%         9.496820
+75%        10.319510
+max        11.675588
+std         1.154677
+Name: gdp, dtype: float64
+
+Column: social_support 
+count    2097.000000
+mean        0.807032
+min         0.290184
+25%         0.736480
+50%         0.833816
+75%         0.905080
+max         0.987343
+std         0.123677
+Name: social_support, dtype: float64
+
+Column: healthy_life 
+count    2097.000000
+mean       63.271555
+min         6.720000
+25%        58.660000
+50%        65.099998
+75%        68.680000
+max        74.599998
+std         7.003554
+Name: healthy_life, dtype: float64
+
+Column: life_choices_freedom 
+count    2097.000000
+mean        0.748863
+min         0.257534
+25%         0.659140
+50%         0.769191
+75%         0.859636
+max         0.985178
+std         0.138801
+Name: life_choices_freedom, dtype: float64
+
+Column: generosity 
+count    2097.000000
+mean        0.000245
+min        -0.339547
+25%        -0.109458
+50%        -0.021462
+75%         0.092585
+max         0.699570
+std         0.162192
+Name: generosity, dtype: float64
+
+Column: corruption 
+count    2097.000000
+mean        0.747080
+min         0.035198
+25%         0.691070
+50%         0.800700
+75%         0.868372
+max         0.983276
+std         0.183882
+Name: corruption, dtype: float64
+
+Column: positive_affect 
+count    2097.000000
+mean        0.653719
+min         0.178886
+25%         0.571715
+50%         0.664986
+75%         0.740427
+max         0.883586
+std         0.107398
+Name: positive_affect, dtype: float64
+
+Column: negative_affect 
+count    2097.000000
+mean        0.274808
+min         0.094316
+25%         0.211092
+50%         0.263826
+75%         0.326395
+max         0.704590
+std         0.085464
+Name: negative_affect, dtype: float64
+
+Total missing values: 
+0
+
+Missing values per variable: 
+country                 0
+year                    0
+life_ladder             0
+gdp                     0
+social_support          0
+healthy_life            0
+life_choices_freedom    0
+generosity              0
+corruption              0
+positive_affect         0
+negative_affect         0
+dtype: int64
+

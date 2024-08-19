@@ -1,0 +1,136 @@
+Number of rows and columns: 
+(2363, 11)
+
+Column types: 
+Country name                         object
+year                                  int64
+Life Ladder                         float64
+Log GDP per capita                  float64
+Social support                      float64
+Healthy life expectancy at birth    float64
+Freedom to make life choices        float64
+Generosity                          float64
+Perceptions of corruption           float64
+Positive affect                     float64
+Negative affect                     float64
+dtype: object
+
+Number of duplicates: 0
+
+Summary:
+Column: Life Ladder 
+count    2363.000000
+mean        5.483562
+std         1.125523
+min         1.281271
+25%         4.646750
+50%         5.448725
+75%         6.323592
+max         8.018934
+Name: Life Ladder, dtype: float64
+
+Column: Log GDP per capita 
+count    2335.000000
+mean        9.399673
+std         1.152062
+min         5.526723
+25%         8.506165
+50%         9.502946
+75%        10.392974
+max        11.675588
+Name: Log GDP per capita, dtype: float64
+
+Column: Social support 
+count    2350.000000
+mean        0.809369
+std         0.121211
+min         0.228217
+25%         0.743811
+50%         0.834395
+75%         0.903779
+max         0.987343
+Name: Social support, dtype: float64
+
+Column: Healthy life expectancy at birth 
+count    2300.000000
+mean       63.401828
+std         6.842644
+min         6.720000
+25%        59.195001
+50%        65.099998
+75%        68.552502
+max        74.599998
+Name: Healthy life expectancy at birth, dtype: float64
+
+Column: Freedom to make life choices 
+count    2327.000000
+mean        0.750290
+std         0.139366
+min         0.228301
+25%         0.660706
+50%         0.771122
+75%         0.861740
+max         0.985178
+Name: Freedom to make life choices, dtype: float64
+
+Column: Generosity 
+count    2282.000000
+mean        0.000096
+std         0.161386
+min        -0.339547
+25%        -0.111940
+50%        -0.021613
+75%         0.093569
+max         0.699570
+Name: Generosity, dtype: float64
+
+Column: Perceptions of corruption 
+count    2238.000000
+mean        0.743959
+std         0.184871
+min         0.035198
+25%         0.686784
+50%         0.798497
+75%         0.867557
+max         0.983276
+Name: Perceptions of corruption, dtype: float64
+
+Column: Positive affect 
+count    2339.000000
+mean        0.651878
+std         0.106249
+min         0.178886
+25%         0.571977
+50%         0.663420
+75%         0.737262
+max         0.883586
+Name: Positive affect, dtype: float64
+
+Column: Negative affect 
+count    2347.000000
+mean        0.273160
+std         0.087133
+min         0.082737
+25%         0.208559
+50%         0.262175
+75%         0.326211
+max         0.704590
+Name: Negative affect, dtype: float64
+
+Total missing values: 
+386
+
+Missing values per variable: 
+Country name                          0
+year                                  0
+Life Ladder                           0
+Log GDP per capita                   28
+Social support                       13
+Healthy life expectancy at birth     63
+Freedom to make life choices         36
+Generosity                           81
+Perceptions of corruption           125
+Positive affect                      24
+Negative affect                      16
+dtype: int64
+
