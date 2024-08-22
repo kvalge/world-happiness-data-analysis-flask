@@ -15,6 +15,9 @@ Positive affect                     float64
 Negative affect                     float64
 dtype: object
 
+Number of countries: 
+165
+
 Number of duplicates: 0
 
 Summary:

@@ -1,6 +1,0 @@
-
-Life Ladder confidence interval for mean
-
-- Mean: 5.47
-- CI 95% level: lower 5.42 - upper 5.52
-- CI 99% level: lower 5.40 - upper 5.53

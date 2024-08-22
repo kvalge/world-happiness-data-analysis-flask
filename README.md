@@ -1,12 +1,18 @@
 # World Happiness Data Analysis
+"Happiness is a fundamental human goal. The United Nations General Assembly recognizes this goal
+and calls for “a more inclusive, equitable and balanced approach to economic growth that 
+promotes the happiness and well-being of all peoples.”"  
+https://www.un.org/en/observances/happiness-day
 
-insight folder - basic data insight before and after cleaning data.  
-results folder - analysis results.  
+
+[Basic data insight before preprocessing data](insight/basic_insight.txt)  
+[Basic data insight after preprocessing data](insight/basic_insight_clean_data.txt)  
+[Exploratory analysis](exploratory_data_analysis.md)
 --------------------------------------------  
 
-![correlation](static/graphs/02_correlation_heatmap.png)
-![correlation](static/graphs/03_life_ladder_correlation_heatmap.png)
-![correlation](static/graphs/04_correlation_life_ladder&gdp_scatterplot.png)  
+![correlation](static/graphs/correlation_heatmap.png)
+![correlation](static/graphs/correlation_heatmap_for_life_ladder.png)
+![correlation](static/graphs/correlation_life_ladder&gdp_scatterplot.png)  
 
 ### Data source:
 World Happiness Report 2024  

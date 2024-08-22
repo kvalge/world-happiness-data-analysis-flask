@@ -1,5 +1,12 @@
+Countries excluded due to missing data:
+ - Cuba
+ - Maldives
+ - Oman
+ - Somaliland region
+ - South Sudan
+
 Number of rows and columns: 
-(2097, 11)
+(2170, 11)
 
 Column types: 
 country                         object
@@ -15,122 +22,125 @@ positive_affect                float64
 negative_affect                float64
 dtype: object
 
+Number of countries: 
+160
+
 Number of duplicates: 0
 
 Summary:
 Column: life_ladder 
-count    2097.000000
-mean        5.466517
+count    2170.000000
+mean        5.461331
 min         2.178809
-25%         4.611607
-50%         5.433173
-75%         6.290690
+25%         4.625010
+50%         5.418603
+75%         6.269266
 max         7.970892
-std         1.136941
+std         1.123251
 Name: life_ladder, dtype: float64
 
 Column: gdp 
-count    2097.000000
-mean        9.356037
+count    2167.000000
+mean        9.358418
 min         5.526723
-25%         8.464981
-50%         9.496820
-75%        10.319510
+25%         8.483308
+50%         9.485221
+75%        10.309683
 max        11.675588
-std         1.154677
+std         1.145040
 Name: gdp, dtype: float64
 
 Column: social_support 
-count    2097.000000
-mean        0.807032
+count    2170.000000
+mean        0.807437
 min         0.290184
-25%         0.736480
-50%         0.833816
-75%         0.905080
+25%         0.739677
+50%         0.831873
+75%         0.904453
 max         0.987343
-std         0.123677
+std         0.122161
 Name: social_support, dtype: float64
 
 Column: healthy_life 
-count    2097.000000
-mean       63.271555
+count    2124.000000
+mean       63.296259
 min         6.720000
-25%        58.660000
+25%        58.747500
 50%        65.099998
-75%        68.680000
+75%        68.621252
 max        74.599998
-std         7.003554
+std         6.971348
 Name: healthy_life, dtype: float64
 
 Column: life_choices_freedom 
-count    2097.000000
-mean        0.748863
+count    2162.000000
+mean        0.748080
 min         0.257534
-25%         0.659140
-50%         0.769191
-75%         0.859636
+25%         0.658433
+50%         0.769464
+75%         0.859575
 max         0.985178
-std         0.138801
+std         0.139548
 Name: life_choices_freedom, dtype: float64
 
 Column: generosity 
-count    2097.000000
-mean        0.000245
+count    2165.000000
+mean        0.000584
 min        -0.339547
-25%        -0.109458
-50%        -0.021462
-75%         0.092585
+25%        -0.111089
+50%        -0.021160
+75%         0.093760
 max         0.699570
-std         0.162192
+std         0.162441
 Name: generosity, dtype: float64
 
 Column: corruption 
-count    2097.000000
-mean        0.747080
+count    2143.000000
+mean        0.746260
 min         0.035198
-25%         0.691070
-50%         0.800700
-75%         0.868372
+25%         0.690305
+50%         0.800866
+75%         0.868358
 max         0.983276
-std         0.183882
+std         0.185136
 Name: corruption, dtype: float64
 
 Column: positive_affect 
-count    2097.000000
-mean        0.653719
+count    2170.000000
+mean        0.651805
 min         0.178886
-25%         0.571715
-50%         0.664986
-75%         0.740427
+25%         0.569464
+50%         0.662652
+75%         0.738746
 max         0.883586
-std         0.107398
+std         0.106857
 Name: positive_affect, dtype: float64
 
 Column: negative_affect 
-count    2097.000000
-mean        0.274808
+count    2170.000000
+mean        0.273401
 min         0.094316
-25%         0.211092
-50%         0.263826
-75%         0.326395
+25%         0.208557
+50%         0.261641
+75%         0.326359
 max         0.704590
-std         0.085464
+std         0.086313
 Name: negative_affect, dtype: float64
 
 Total missing values: 
-0
+89
 
 Missing values per variable: 
-country                 0
-year                    0
-life_ladder             0
-gdp                     0
-social_support          0
-healthy_life            0
-life_choices_freedom    0
-generosity              0
-corruption              0
-positive_affect         0
-negative_affect         0
+country                  0
+year                     0
+life_ladder              0
+gdp                      3
+social_support           0
+healthy_life            46
+life_choices_freedom     8
+generosity               5
+corruption              27
+positive_affect          0
+negative_affect          0
 dtype: int64
 

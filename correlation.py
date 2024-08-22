@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from data.clean_data import clean_data
+from data.data_preprocessing import data_preprocessing
 
 new_variable_names_dict = {
     'life_ladder': 'life ladder',
@@ -17,7 +17,7 @@ new_variable_names_dict = {
 
 
 def variables_correlation():
-    data = clean_data()
+    data = data_preprocessing()
     corr_data = data.drop(['country', 'year'], axis=1)
 
     old_labels = corr_data.corr().columns
@@ -30,11 +30,11 @@ def variables_correlation():
     plt.title('\nCorrelation Matrix of Dataset Variables\n', fontsize=20)
     plt.tight_layout()
 
-    plt.savefig('static/graphs/02_correlation_heatmap.png')
+    plt.savefig('static/graphs/correlation_heatmap.png')
 
 
 def variables_correlation_with_life_ladder():
-    data = clean_data()
+    data = data_preprocessing()
     corr_data = data.drop(['country', 'year'], axis=1)
 
     corr_matrix = corr_data.corr()
@@ -51,11 +51,11 @@ def variables_correlation_with_life_ladder():
     plt.title('\nCorrelations with Life Ladder\n', fontsize=20)
     plt.tight_layout()
 
-    plt.savefig('static/graphs/03_life_ladder_correlation_heatmap.png')
+    plt.savefig('static/graphs/correlation_heatmap_for_life_ladder.png')
 
 
 def life_ladder_and_gdp_correlation():
-    data = clean_data()
+    data = data_preprocessing()
 
     plt.figure(figsize=(10, 6))
     plt.scatter(data['life_ladder'], data['gdp'], color='#5D7CE6')
@@ -63,4 +63,4 @@ def life_ladder_and_gdp_correlation():
     plt.xlabel('Life Ladder', fontsize=7)
     plt.ylabel('Log GDP per Capita', fontsize=7)
 
-    plt.savefig('static/graphs/04_correlation_life_ladder&gdp_scatterplot.png')
+    plt.savefig('static/graphs/correlation_life_ladder&gdp_scatterplot.png')

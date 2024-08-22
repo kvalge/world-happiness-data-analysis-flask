@@ -1,0 +1,8 @@
+Determine Gdp distribution
+
+- Mean: 9.36
+- Standard Deviation: 1.15
+- Lower limit of one standard error: 8.21
+- Upper limit of one standard error: 10.50
+- Share of values within one std of the mean: 60.23%
+- Outliers: 0

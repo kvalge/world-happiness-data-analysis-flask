@@ -1,0 +1,8 @@
+Determine Life Ladder distribution
+
+- Mean: 5.46
+- Standard Deviation: 1.12
+- Lower limit of one standard error: 4.34
+- Upper limit of one standard error: 6.58
+- Share of values within one std of the mean: 65.25%
+- Outliers: 0
