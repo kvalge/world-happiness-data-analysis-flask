@@ -14,7 +14,7 @@ https://www.un.org/en/observances/happiness-day
 ![correlation](static/graphs/correlation_heatmap_for_life_ladder.png)
 ![correlation](static/graphs/correlation_life_ladder&gdp_scatterplot.png)  
 
-### Data source:
+### Data Source:
 World Happiness Report 2024  
 https://worldhappiness.report/data/  
 

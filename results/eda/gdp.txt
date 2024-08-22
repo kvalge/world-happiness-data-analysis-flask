@@ -1,4 +1,4 @@
-Determine Gdp distribution
+Determine GDP distribution
 
 - Mean: 9.36
 - Standard Deviation: 1.15

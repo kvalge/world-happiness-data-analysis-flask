@@ -37,6 +37,8 @@ def identify_distribution(variable):
         outliers_output = outliers[['country', 'year', variable]].to_string(index=False)
 
     modified_variable = variable.replace('_', ' ').title()
+    if variable == 'gdp':
+        modified_variable = 'GDP'
 
     with open(f'results/eda/{variable}.txt', 'w') as f:
         f.write(f'Determine {modified_variable} distribution\n\n')
@@ -54,7 +56,11 @@ def create_histogram(variable):
     plt.figure(figsize=(10, 6))
     plt.hist(data, bins=25, color='#5D7CE6', edgecolor='w', alpha=0.95)
     plt.ylabel('Count')
+
     modified_variable = variable.replace('_', ' ').title()
+    if variable == 'gdp':
+        modified_variable = 'GDP'
+
     plt.title(f'Distribution of {modified_variable} Values')
 
     plt.savefig(f'static/graphs/{variable}_histogram.png')
