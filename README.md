@@ -17,6 +17,7 @@ What variables affect happiness score (life ladder variable).
 ![correlation](static/graphs/correlation_heatmap_for_life_ladder.png)
 ![correlation](static/graphs/correlation_heatmap_for_gdp.png)
 ![correlation](static/graphs/correlation_life_ladder&gdp_scatterplot.png)  
+![continent by life ladder](static/graphs/continent_by_life_ladder_boxplot.png)  
 
 ### Data Source:
 World Happiness Report 2024  
