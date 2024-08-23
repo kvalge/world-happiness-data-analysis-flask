@@ -9,6 +9,7 @@ def data_preprocessing():
     source_data['year'] = pd.to_datetime(source_data['year'], format='%Y')
 
     data = source_data.dropna().copy()
+    data = data[data['Country name'] != 'Haiti']
 
     data.rename(columns={'Country name': 'country',
                          'Life Ladder': 'life_ladder',

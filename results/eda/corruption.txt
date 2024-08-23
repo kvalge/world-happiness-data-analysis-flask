@@ -4,7 +4,7 @@ Determine Corruption distribution
 - Standard Deviation: 0.18
 - Lower limit of one standard error: 0.56
 - Upper limit of one standard error: 0.93
-- Share of values within one std of the mean: 79.59%
+- Share of values within one std of the mean: 79.63%
 - Outliers: 
     country       year  corruption
     Denmark 2010-01-01    0.174896
@@ -18,7 +18,6 @@ Determine Corruption distribution
     Denmark 2023-01-01    0.183567
     Finland 2006-01-01    0.132430
     Finland 2017-01-01    0.192413
-    Finland 2019-01-01    0.195338
     Finland 2020-01-01    0.163636
     Finland 2021-01-01    0.191754
     Finland 2022-01-01    0.190207

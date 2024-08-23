@@ -4,7 +4,7 @@ Determine Social Support distribution
 - Standard Deviation: 0.12
 - Lower limit of one standard error: 0.68
 - Upper limit of one standard error: 0.93
-- Share of values within one std of the mean: 70.62%
+- Share of values within one std of the mean: 70.61%
 - Outliers: 
                  country       year  social_support
              Afghanistan 2019-01-01        0.419973

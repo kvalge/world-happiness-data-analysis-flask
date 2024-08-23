@@ -4,14 +4,15 @@ Determine Life Choices Freedom distribution
 - Standard Deviation: 0.14
 - Lower limit of one standard error: 0.61
 - Upper limit of one standard error: 0.89
-- Share of values within one std of the mean: 66.09%
+- Share of values within one std of the mean: 66.06%
 - Outliers: 
                country       year  life_choices_freedom
 Bosnia and Herzegovina 2009-01-01              0.257534
+Bosnia and Herzegovina 2011-01-01              0.333312
                Burundi 2008-01-01              0.260069
                   Chad 2006-01-01              0.306132
                   Chad 2007-01-01              0.294612
-                 Haiti 2016-01-01              0.303540
                   Iraq 2012-01-01              0.314565
             Madagascar 2008-01-01              0.332436
+              Pakistan 2008-01-01              0.335224
                   Togo 2008-01-01              0.286814

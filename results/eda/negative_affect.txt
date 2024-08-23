@@ -4,7 +4,7 @@ Determine Negative Affect distribution
 - Standard Deviation: 0.09
 - Lower limit of one standard error: 0.19
 - Upper limit of one standard error: 0.36
-- Share of values within one std of the mean: 69.15%
+- Share of values within one std of the mean: 69.18%
 - Outliers: 
                  country       year  negative_affect
              Afghanistan 2021-01-01         0.606713

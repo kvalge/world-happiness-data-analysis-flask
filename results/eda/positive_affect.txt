@@ -4,7 +4,7 @@ Determine Positive Affect distribution
 - Standard Deviation: 0.11
 - Lower limit of one standard error: 0.55
 - Upper limit of one standard error: 0.76
-- Share of values within one std of the mean: 64.71%
+- Share of values within one std of the mean: 64.77%
 - Outliers: 
     country       year  positive_affect
 Afghanistan 2019-01-01         0.324108

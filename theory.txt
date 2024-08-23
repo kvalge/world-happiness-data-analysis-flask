@@ -1,0 +1,12 @@
+Observations with a Z-score smaller than -3 or larger than 3 can be considered outliers.  
+
+In regression analysis, heteroscedasticity (sometimes spelled heteroskedasticity) refers to
+the unequal scatter of residuals or error terms. It refers to the case where there
+is a systematic change in the spread of the residuals over the range of measured values.
+Heteroscedasticity is a problem because ordinary least squares (OLS) regression assumes that
+the residuals come from a population that has homoscedasticity, which means constant variance.
+
+The Akaike information criterion (AIC) is a metric that is used to compare the fit of different 
+regression models. The model with the lowest AIC offers the best fit. The absolute value of 
+the AIC value is not important.
+

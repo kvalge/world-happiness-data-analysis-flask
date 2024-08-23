@@ -1,10 +1,10 @@
 Determine Generosity distribution
 
-- Mean: 0.00
+- Mean: -0.00
 - Standard Deviation: 0.16
 - Lower limit of one standard error: -0.16
 - Upper limit of one standard error: 0.16
-- Share of values within one std of the mean: 70.39%
+- Share of values within one std of the mean: 70.66%
 - Outliers: 
   country       year  generosity
 Indonesia 2016-01-01    0.494283
