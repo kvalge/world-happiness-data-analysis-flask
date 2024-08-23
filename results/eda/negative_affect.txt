@@ -1,0 +1,24 @@
+Determine Negative Affect distribution
+
+- Mean: 0.27
+- Standard Deviation: 0.09
+- Lower limit of one standard error: 0.19
+- Upper limit of one standard error: 0.36
+- Share of values within one std of the mean: 69.15%
+- Outliers:                  country       year  negative_affect
+             Afghanistan 2021-01-01         0.606713
+                 Armenia 2022-01-01         0.549468
+Central African Republic 2017-01-01         0.599335
+                    Chad 2017-01-01         0.538245
+                    Chad 2018-01-01         0.543836
+                    Iran 2013-01-01         0.551840
+                    Iraq 2011-01-01         0.557099
+                    Iraq 2014-01-01         0.563631
+                    Iraq 2015-01-01         0.581267
+                    Iraq 2016-01-01         0.569758
+                    Iraq 2017-01-01         0.590539
+                    Iraq 2020-01-01         0.531539
+                 Lebanon 2021-01-01         0.569101
+                   Syria 2012-01-01         0.704590
+                   Syria 2013-01-01         0.622230
+                   Syria 2015-01-01         0.642589

@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 from scipy import stats
-import statsmodels.api as sm
 
 from data.data_preprocessing import data_preprocessing
 
@@ -8,10 +7,27 @@ df = data_preprocessing()
 
 
 def identify_variable_distribution():
-    identify_distribution('life_ladder')
-    create_histogram('life_ladder')
-    identify_distribution('gdp')
-    create_histogram('gdp')
+    column_names = ['life_ladder', 'gdp', 'social_support', 'healthy_life', 'life_choices_freedom', 'generosity',
+                    'corruption', 'positive_affect', 'negative_affect']
+
+    num_columns = 3
+    num_rows = (len(column_names) + 1) // num_columns
+
+    fig, axs = plt.subplots(num_rows, num_columns, figsize=(12, num_rows * 3),
+                            gridspec_kw={'height_ratios': [1.5] * num_rows})
+
+    for i, cn in enumerate(column_names):
+        row = i // num_columns
+        col = i % num_columns
+        create_histogram(cn, axs[row, col])
+        identify_distribution(cn)
+
+    if len(column_names) % num_columns != 0:
+        fig.delaxes(axs[-1, -1])
+
+    plt.tight_layout()
+    plt.savefig(f'static/graphs/histograms.png')
+    plt.close()
 
 
 def identify_distribution(variable):
@@ -50,21 +66,19 @@ def identify_distribution(variable):
         f.write(f'- Outliers: {outliers_output}\n')
 
 
-def create_histogram(variable):
+def create_histogram(variable, ax):
     data = df[variable]
 
-    plt.figure(figsize=(10, 6))
-    plt.hist(data, bins=25, color='#5D7CE6', edgecolor='w', alpha=0.95)
-    plt.ylabel('Count')
+    ax.hist(data, bins=30, color='#5D7CE6', edgecolor='w', alpha=0.95)
+    ax.set_ylabel('Count')
 
     modified_variable = variable.replace('_', ' ').title()
     if variable == 'gdp':
         modified_variable = 'GDP'
 
-    plt.title(f'Distribution of {modified_variable} Values')
+    ax.set_title(f'Distribution of {modified_variable} Values')
 
-    plt.savefig(f'static/graphs/{variable}_histogram.png')
-    plt.close()
+
 
 # def find_confidence_interval_for_life_ladder_mean():
 #     data = df['life_ladder']

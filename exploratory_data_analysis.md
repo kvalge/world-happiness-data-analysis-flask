@@ -1,9 +1,14 @@
 # Exploratory Data Analysis
 
-[Life Ladder distribution characteristics](results/eda/life_ladder.txt)
+### Distribution Characteristics
+[Life Ladder](results/eda/life_ladder.txt)  
+[Log GDP per capita](results/eda/gdp.txt)  
+[Social support](results/eda/social_support.txt)  
+[Healthy life expectancy at birth](results/eda/healthy_life.txt)  
+[Freedom to make life choices](results/eda/life_choices_freedom.txt)  
+[Generosity](results/eda/generosity.txt)  
+[Perceptions of corruption](results/eda/corruption.txt)  
+[Positive affect](results/eda/positive_affect.txt)  
+[Negative affect](results/eda/negative_affect.txt)  
 
-![life ladder histogram](static/graphs/life_ladder_histogram.png)
-
-[GDP distribution characteristics](results/eda/gdp.txt)
-
-![GDP histogram](static/graphs/gdp_histogram.png)
+![histogram](static/graphs/histograms.png)

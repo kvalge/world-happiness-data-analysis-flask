@@ -54,6 +54,27 @@ def variables_correlation_with_life_ladder():
     plt.savefig('static/graphs/correlation_heatmap_for_life_ladder.png')
 
 
+def variables_correlation_with_gdp():
+    data = data_preprocessing()
+    corr_data = data.drop(['country', 'year', 'life_ladder'], axis=1)
+
+    corr_matrix = corr_data.corr()
+    sorted_corr = corr_matrix[['gdp']].sort_values('gdp', ascending=False)
+
+    old_labels = sorted_corr.index
+    new_labels = [new_variable_names_dict.get(label, label) for label in old_labels]
+
+    plt.figure(figsize=(10, 6))
+    heatmap = sns.heatmap(sorted_corr, annot=True, cmap='coolwarm', vmin=-1, vmax=1)
+    heatmap.set_xticklabels(['gdp'])
+    heatmap.set_yticklabels(new_labels, ha='right')
+
+    plt.title('\nCorrelations with GDP\n', fontsize=20)
+    plt.tight_layout()
+
+    plt.savefig('static/graphs/correlation_heatmap_for_gdp.png')
+
+
 def life_ladder_and_gdp_correlation():
     data = data_preprocessing()
 

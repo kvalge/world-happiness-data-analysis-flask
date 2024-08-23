@@ -1,0 +1,29 @@
+Determine Generosity distribution
+
+- Mean: 0.00
+- Standard Deviation: 0.16
+- Lower limit of one standard error: -0.16
+- Upper limit of one standard error: 0.16
+- Share of values within one std of the mean: 70.39%
+- Outliers:   country       year  generosity
+Indonesia 2016-01-01    0.494283
+Indonesia 2018-01-01    0.506228
+Indonesia 2019-01-01    0.549459
+Indonesia 2020-01-01    0.529078
+Indonesia 2021-01-01    0.540485
+Indonesia 2022-01-01    0.516282
+Indonesia 2023-01-01    0.589554
+  Myanmar 2012-01-01    0.646269
+  Myanmar 2013-01-01    0.690941
+  Myanmar 2014-01-01    0.699570
+  Myanmar 2015-01-01    0.691576
+  Myanmar 2016-01-01    0.680345
+  Myanmar 2017-01-01    0.651443
+  Myanmar 2018-01-01    0.492083
+  Myanmar 2019-01-01    0.560277
+  Myanmar 2021-01-01    0.508287
+  Myanmar 2022-01-01    0.600467
+  Myanmar 2023-01-01    0.547801
+ Thailand 2009-01-01    0.520333
+ Thailand 2010-01-01    0.531520
+ Thailand 2014-01-01    0.548465

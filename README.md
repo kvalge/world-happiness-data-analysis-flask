@@ -12,6 +12,7 @@ https://www.un.org/en/observances/happiness-day
 
 ![correlation](static/graphs/correlation_heatmap.png)
 ![correlation](static/graphs/correlation_heatmap_for_life_ladder.png)
+![correlation](static/graphs/correlation_heatmap_for_gdp.png)
 ![correlation](static/graphs/correlation_life_ladder&gdp_scatterplot.png)  
 
 ### Data Source:

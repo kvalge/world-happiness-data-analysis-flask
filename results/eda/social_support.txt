@@ -1,0 +1,26 @@
+Determine Social Support distribution
+
+- Mean: 0.81
+- Standard Deviation: 0.12
+- Lower limit of one standard error: 0.68
+- Upper limit of one standard error: 0.93
+- Share of values within one std of the mean: 70.62%
+- Outliers:                  country       year  social_support
+             Afghanistan 2019-01-01        0.419973
+              Bangladesh 2022-01-01        0.403708
+                   Benin 2008-01-01        0.382374
+                   Benin 2015-01-01        0.434389
+                   Benin 2017-01-01        0.435879
+                   Benin 2021-01-01        0.435524
+                   Benin 2022-01-01        0.365683
+                   Benin 2023-01-01        0.398188
+                 Burundi 2008-01-01        0.290934
+                 Burundi 2009-01-01        0.325693
+                 Burundi 2011-01-01        0.422240
+Central African Republic 2011-01-01        0.387391
+Central African Republic 2016-01-01        0.290184
+Central African Republic 2017-01-01        0.319589
+                Pakistan 2008-01-01        0.372908
+                    Togo 2006-01-01        0.435414
+                    Togo 2008-01-01        0.291334
+                    Togo 2011-01-01        0.302955
