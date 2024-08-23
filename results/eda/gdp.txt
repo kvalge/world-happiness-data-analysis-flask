@@ -5,5 +5,6 @@ Determine GDP distribution
 - Lower limit of one standard error: 8.20
 - Upper limit of one standard error: 10.51
 - Share of values within one std of the mean: 60.04%
-- Outliers:   country       year      gdp
+- Outliers: 
+  country       year      gdp
 Venezuela 2019-01-01 5.526723

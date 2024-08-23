@@ -1,0 +1,73 @@
+Variable Definitions:
+
+Happiness score or subjective well-being (variable name life_ladder ): The survey
+measure of SWB is from the Jan 20, 2023 release of the Gallup World Poll
+(GWP) covering years from 2005 to 2022. Unless stated otherwise, it is the national
+average response to the question of life evaluations. The English wording
+of the question is “Please imagine a ladder, with steps numbered from 0 at the
+bottom to 10 at the top. The top of the ladder represents the best possible life
+for you and the bottom of the ladder represents the worst possible life for you.
+On which step of the ladder would you say you personally feel you stand at this
+time?” This measure is also referred to as Cantril life ladder, or just life ladder
+in our analysis.
+
+The statistics of GDP per capita (variable name gdp) in purchasing power parity
+(PPP) at constant 2017 international dollar prices are from World Development
+Indicators (WDI, version 17, metadata last updated on Jan 22, 2023). The GDP
+figures for Taiwan, Syria, Palestine, Venezuela, Djibouti and Yemen are from
+the Penn World Table 10.01.
+– GDP per capita in 2022 are not yet available as of January 2023. We extend
+the GDP-per-capita time series from 2021 to 2022 using country-specific
+forecasts of real GDP growth in 2022 first from the OECD Economic Outlook No. 112
+ (November 2022) and then, if missing, forecasts from World
+Bank’s Global Economic Prospects (Last Updated: 01/10/2023). The
+GDP growth forecasts are adjusted for population growth with the subtraction of
+2020-21 population growth as the projected 2021-22 growth.
+A few countries/territories have their GDP figures from the Penn World
+Table that ends in 2019. We derive their 2020-2022 GDP values based on
+the 2019 values and the projected growth rates if they are available.
+
+Healthy Life Expectancy (healthy_life). Healthy life expectancies at birth are based
+on the data extracted from the World Health Organization’s (WHO) Global
+1
+Health Observatory data repository (Last updated: 2020-12-04). The data at
+the source are available for the years 2000, 2010, 2015 and 2019. To match this
+report’s sample period (2005-2021), interpolation and extrapolation are used.
+
+Social support (or having someone to count on in times of trouble; social_support) is the national
+average of the binary responses (either 0 or 1) to the GWP question “If you
+were in trouble, do you have relatives or friends you can count on to help you
+whenever you need them, or not?”
+
+Freedom to make life choices (life_choices_freedom) is the national average of responses to the GWP
+question “Are you satisfied or dissatisfied with your freedom to choose what
+you do with your life?”
+
+Generosity (generosity) is the residual of regressing national average of response to the GWP
+question “Have you donated money to a charity in the past month?” on GDP
+per capita.
+
+Corruption Perception (corruption): The measure is the national average of the survey responses to
+two questions in the GWP: “Is corruption widespread throughout
+the government or not” and “Is corruption widespread within businesses or
+not?” The overall perception is just the average of the two 0-or-1 responses. In
+case the perception of government corruption is missing, we use the perception
+of business corruption as the overall perception. The corruption perception at
+the national level is just the average response of the overall perception at the
+individual level.
+
+Positive affect (positive_affect) is defined as the average of three positive affect measures in
+GWP: laugh, enjoyment and doing interesting things in the Gallup World Poll
+waves 3-7. These measures are the responses to the following three questions,
+respectively: “Did you smile or laugh a lot yesterday?”, and “Did you experience
+the following feelings during A LOT OF THE DAY yesterday? How about
+Enjoyment?”, “Did you learn or do something interesting yesterday?”
+
+Negative affect (negative_affect) is defined as the average of three negative affect measures in
+GWP. They are worry, sadness and anger, respectively the responses to “Did
+you experience the following feelings during A LOT OF THE DAY yesterday?
+How about Worry?”, “Did you experience the following feelings during A LOT
+OF THE DAY yesterday? How about Sadness?”, and “Did you experience the
+following feelings during A LOT OF THE DAY yesterday? How about Anger?”
+
+Source: https://worldhappiness.report/data/

@@ -5,7 +5,8 @@ Determine Corruption distribution
 - Lower limit of one standard error: 0.56
 - Upper limit of one standard error: 0.93
 - Share of values within one std of the mean: 79.59%
-- Outliers:     country       year  corruption
+- Outliers: 
+    country       year  corruption
     Denmark 2010-01-01    0.174896
     Denmark 2012-01-01    0.187408
     Denmark 2013-01-01    0.170042

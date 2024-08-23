@@ -4,6 +4,9 @@ and calls for “a more inclusive, equitable and balanced approach to economic g
 promotes the happiness and well-being of all peoples.”"  
 https://www.un.org/en/observances/happiness-day
 
+### Research question
+What variables affect happiness score (life ladder variable).  
+[Variable definitions](variable_definitions.txt)  
 
 [Basic data insight before preprocessing data](insight/basic_insight.txt)  
 [Basic data insight after preprocessing data](insight/basic_insight_clean_data.txt)  

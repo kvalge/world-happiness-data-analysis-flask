@@ -5,7 +5,8 @@ Determine Negative Affect distribution
 - Lower limit of one standard error: 0.19
 - Upper limit of one standard error: 0.36
 - Share of values within one std of the mean: 69.15%
-- Outliers:                  country       year  negative_affect
+- Outliers: 
+                 country       year  negative_affect
              Afghanistan 2021-01-01         0.606713
                  Armenia 2022-01-01         0.549468
 Central African Republic 2017-01-01         0.599335

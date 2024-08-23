@@ -5,7 +5,8 @@ Determine Social Support distribution
 - Lower limit of one standard error: 0.68
 - Upper limit of one standard error: 0.93
 - Share of values within one std of the mean: 70.62%
-- Outliers:                  country       year  social_support
+- Outliers: 
+                 country       year  social_support
              Afghanistan 2019-01-01        0.419973
               Bangladesh 2022-01-01        0.403708
                    Benin 2008-01-01        0.382374

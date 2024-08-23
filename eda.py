@@ -63,7 +63,7 @@ def identify_distribution(variable):
         f.write(f'- Lower limit of one standard error: {one_std_lower_limit:.2f}\n')
         f.write(f'- Upper limit of one standard error: {one_std_upper_limit:.2f}\n')
         f.write(f'- Share of values within one std of the mean: {share_of_values_in_one_std_interval:.2f}%\n')
-        f.write(f'- Outliers: {outliers_output}\n')
+        f.write(f'- Outliers: \n{outliers_output}\n')
 
 
 def create_histogram(variable, ax):
