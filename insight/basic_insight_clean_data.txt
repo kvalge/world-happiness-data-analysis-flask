@@ -12,7 +12,7 @@ Countries excluded due to missing data:
  - Turkmenistan
 
 Number of rows and columns: 
-(2086, 11)
+(2086, 14)
 
 Column types: 
 country                         object
@@ -26,6 +26,9 @@ generosity                     float64
 corruption                     float64
 positive_affect                float64
 negative_affect                float64
+population                     float64
+area                           float64
+continent                       object
 dtype: object
 
 Number of countries: 
@@ -133,6 +136,28 @@ max         0.704590
 std         0.085601
 Name: negative_affect, dtype: float64
 
+Column: population 
+count    2.086000e+03
+mean     4.722525e+07
+min      3.703350e+05
+25%      5.535992e+06
+50%      1.599352e+07
+75%      4.353359e+07
+max      1.407564e+09
+std      1.352559e+08
+Name: population, dtype: float64
+
+Column: area 
+count    2.086000e+03
+mean     8.999765e+05
+min      9.000000e+00
+25%      7.027300e+04
+50%      2.667020e+05
+75%      7.560000e+05
+max      1.712524e+07
+std      2.218523e+06
+Name: area, dtype: float64
+
 Total missing values: 
 0
 
@@ -148,5 +173,8 @@ generosity              0
 corruption              0
 positive_affect         0
 negative_affect         0
+population              0
+area                    0
+continent               0
 dtype: int64
 

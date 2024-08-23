@@ -20,8 +20,8 @@ from data.data_preprocessing import data_preprocessing
 
 df = data_preprocessing()
 
-X = df[['gdp', 'social_support', 'healthy_life', 'life_choices_freedom',
-        'generosity', 'corruption', 'positive_affect', 'negative_affect']]
+X = df[['gdp', 'social_support', 'healthy_life', 'life_choices_freedom', 'generosity',
+        'corruption', 'positive_affect', 'negative_affect', 'population', 'area']]
 y = df['life_ladder']
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -37,7 +37,7 @@ residuals = y_test - y_pred
 threshold = 3 * np.std(residuals)
 outliers = np.where(np.abs(residuals) > threshold)[0]
 outlier_data = df.iloc[outliers]
-print('Outliers:', outlier_data)
+print('Outliers:\n', outlier_data)
 
 
 # Testing if errors (residuals) are independent.
@@ -110,9 +110,6 @@ print('p-value:', bp_test[1])
 gq_test = het_goldfeldquandt(residuals, sm.add_constant(X_test))
 print('p-value:', gq_test[1])
 
-white_test = het_white(residuals, sm.add_constant(X_test))
-print('p-value:', white_test[1])
-
 
 # Logarithmic transformation.
 df['log_life_ladder'] = np.log(df['life_ladder'])
@@ -144,3 +141,6 @@ print(f"Mean Squared Error: {mse}")
 shapiro_test = shapiro(residuals)
 # normal if p value > 0.05
 print('Shapiro-Wilki test p-value for log data:', shapiro_test.pvalue)
+
+white_test = het_white(residuals, sm.add_constant(X_test))
+print('white test p-value:', white_test[1])

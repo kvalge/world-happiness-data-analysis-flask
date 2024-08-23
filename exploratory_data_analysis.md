@@ -10,5 +10,7 @@
 [Perceptions of corruption](results/eda/corruption.txt)  
 [Positive affect](results/eda/positive_affect.txt)  
 [Negative affect](results/eda/negative_affect.txt)  
+[Population](results/eda/population.txt)  
+[Area](results/eda/area.txt)  
 
 ![histogram](static/graphs/histograms.png)

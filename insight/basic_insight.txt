@@ -1,5 +1,5 @@
 Number of rows and columns: 
-(2363, 11)
+(2363, 16)
 
 Column types: 
 Country name                         object
@@ -13,6 +13,11 @@ Generosity                          float64
 Perceptions of corruption           float64
 Positive affect                     float64
 Negative affect                     float64
+Country                              object
+Capital                              object
+Population 2021                     float64
+Area                                float64
+Continent                            object
 dtype: object
 
 Number of countries: 
@@ -120,8 +125,30 @@ min         0.082737
 max         0.704590
 Name: Negative affect, dtype: float64
 
+Column: Population 2021 
+count    2.326000e+03
+mean     5.645204e+07
+std      1.768048e+08
+min      3.703350e+05
+25%      5.835806e+06
+50%      1.599352e+07
+75%      4.353142e+07
+max      1.425893e+09
+Name: Population 2021, dtype: float64
+
+Column: Area 
+count    2.326000e+03
+mean     9.456539e+05
+std      2.280356e+06
+min      9.000000e+00
+25%      6.561000e+04
+50%      2.667020e+05
+75%      7.560000e+05
+max      1.712524e+07
+Name: Area, dtype: float64
+
 Total missing values: 
-386
+571
 
 Missing values per variable: 
 Country name                          0
@@ -135,5 +162,10 @@ Generosity                           81
 Perceptions of corruption           125
 Positive affect                      24
 Negative affect                      16
+Country                              37
+Capital                              37
+Population 2021                      37
+Area                                 37
+Continent                            37
 dtype: int64
 

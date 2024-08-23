@@ -9,6 +9,7 @@ def data_preprocessing():
     source_data['year'] = pd.to_datetime(source_data['year'], format='%Y')
 
     data = source_data.dropna().copy()
+    data = data.drop(columns=['Country', 'Capital'])
     data = data[data['Country name'] != 'Haiti']
 
     data.rename(columns={'Country name': 'country',
@@ -21,6 +22,9 @@ def data_preprocessing():
                          'Perceptions of corruption': 'corruption',
                          'Positive affect': 'positive_affect',
                          'Negative affect': 'negative_affect',
+                         'Population 2021': 'population',
+                         'Area': 'area',
+                         'Continent': 'continent'
                          },
                 inplace=True)
 

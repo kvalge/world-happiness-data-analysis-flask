@@ -13,12 +13,14 @@ new_variable_names_dict = {
     'corruption': 'corruption',
     'positive_affect': 'positive affect',
     'negative_affect': 'negative affect',
+    'population': 'population',
+    'area': 'area'
 }
 
 
 def variables_correlation():
     data = data_preprocessing()
-    corr_data = data.drop(['country', 'year'], axis=1)
+    corr_data = data.drop(['country', 'year', 'continent'], axis=1)
 
     old_labels = corr_data.corr().columns
     new_labels = [new_variable_names_dict.get(label, label) for label in old_labels]
@@ -35,7 +37,7 @@ def variables_correlation():
 
 def variables_correlation_with_life_ladder():
     data = data_preprocessing()
-    corr_data = data.drop(['country', 'year'], axis=1)
+    corr_data = data.drop(['country', 'year', 'continent'], axis=1)
 
     corr_matrix = corr_data.corr()
     sorted_corr = corr_matrix[['life_ladder']].sort_values('life_ladder', ascending=False)
@@ -56,7 +58,7 @@ def variables_correlation_with_life_ladder():
 
 def variables_correlation_with_gdp():
     data = data_preprocessing()
-    corr_data = data.drop(['country', 'year', 'life_ladder'], axis=1)
+    corr_data = data.drop(['country', 'year', 'continent', 'life_ladder'], axis=1)
 
     corr_matrix = corr_data.corr()
     sorted_corr = corr_matrix[['gdp']].sort_values('gdp', ascending=False)

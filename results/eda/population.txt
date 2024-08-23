@@ -1,0 +1,26 @@
+Determine Population distribution
+
+- Mean: 47225250.40
+- Standard Deviation: 135255883.05
+- Lower limit of one standard error: -88030632.64
+- Upper limit of one standard error: 182481133.45
+- Share of values within one std of the mean: 95.21%
+- Outliers: 
+country       year   population
+  India 2007-01-01 1407563842.0
+  India 2008-01-01 1407563842.0
+  India 2009-01-01 1407563842.0
+  India 2010-01-01 1407563842.0
+  India 2011-01-01 1407563842.0
+  India 2012-01-01 1407563842.0
+  India 2013-01-01 1407563842.0
+  India 2014-01-01 1407563842.0
+  India 2015-01-01 1407563842.0
+  India 2016-01-01 1407563842.0
+  India 2017-01-01 1407563842.0
+  India 2018-01-01 1407563842.0
+  India 2019-01-01 1407563842.0
+  India 2020-01-01 1407563842.0
+  India 2021-01-01 1407563842.0
+  India 2022-01-01 1407563842.0
+  India 2023-01-01 1407563842.0

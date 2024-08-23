@@ -8,7 +8,7 @@ df = data_preprocessing()
 
 def identify_variable_distribution():
     column_names = ['life_ladder', 'gdp', 'social_support', 'healthy_life', 'life_choices_freedom', 'generosity',
-                    'corruption', 'positive_affect', 'negative_affect']
+                    'corruption', 'positive_affect', 'negative_affect', 'population', 'area']
 
     num_columns = 3
     num_rows = (len(column_names) + 1) // num_columns
